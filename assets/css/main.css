@@ -145,12 +145,12 @@
 
 	a {
 		text-decoration: underline;
-		color: #0f0f0f;
+		color: #14213D;
 	}
 
 		a:hover {
 			text-decoration: none;
-			color: #d34107;
+			color: #FCA311;
 		}
 
 	strong, b {
@@ -316,7 +316,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #0f0f0f;
+		background: #14213D;
 		color: #FFF;
 		border-radius: 4px;
 		border: 0;
@@ -337,7 +337,7 @@
 		button.active,
 		.button.active {
 			color: #FFF;
-			background: #22313F;
+			background: #FCA311;
 		}
 
 			input[type="submit"].active:hover,
@@ -346,7 +346,7 @@
 			button.active:hover,
 			.button.active:hover {
 				color: #FFF;
-				background: #22313F;
+				background: #FFBD51;
 			}
 
 		input[type="submit"]:hover,
@@ -355,7 +355,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #d34107;
+			background: #FCA311;
 		}
 
 		input[type="submit"].alt,
@@ -372,7 +372,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: rgba(144, 144, 144, 0.075);
+				background: rgba(251, 213, 179, 0.08);
 				box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.25);
 			}
 
@@ -563,7 +563,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		border-radius: 4px;
-		border: solid 1px #f358116c;
+		border: solid 1px #14213D87;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -589,7 +589,7 @@
 		select:focus,
 		textarea:active,
 		textarea:focus {
-			border: solid 1px #d34107;
+			border: solid 1px #FCA311;
 		}
 
 	.select-wrapper {
@@ -1394,7 +1394,7 @@
 /* Menu */
 
 	#nav {
-		background: #d34107;
+		background: #FCA311;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
@@ -1417,7 +1417,7 @@
 			}
 
 				#nav ul li a {
-					color: rgba(255, 255, 255, 0.8);
+					color: rgba(255, 255, 255, 0.6);
 					text-decoration: none;
 					font-size: 1.5em;
 				}
@@ -1427,7 +1427,7 @@
 					}
 
 					#nav ul li a.active {
-						color: #0a0a0a;
+						color: #14213D;
 					}
 
 				@media screen and (max-width: 736px) {
@@ -1466,7 +1466,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 75vh;
-		height: 75vh;
+		height: 100vh;
 		position: relative;
 		background: #000;
 		background-image: url(../../images/banner.jpg);
